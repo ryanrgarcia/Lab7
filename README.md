@@ -1,6 +1,4 @@
-
-
-
-
-
-
+1. Within a Github action that runs whenver code is pushed because when we make incremental pushes, we can automatically test the new changes made in an incremental manner instead of manually testing the code each time or only testing once when many changes have already been made and it will be harder to debug and find the issues.
+2. Yes
+3. Navigation tests the webpage by performing a full-page load and measuring many metrics like First Content Paint and Time to Interactice whereas snapshot mode does not reload the page and doesn't measure these metrics. Instead, snapshot mode audits the current DOM state of the page. However, both audit the accessibility of the page as well as SEO and best practices of the page. Navigation mode is best for measuring real-world loading performance and snapshot mode is best for testing pages or components in a dynamic web application. 
+4. Add a `<meta name="viewport">` tag with `width` or `initial-scale`, add a `[lang]` attribute to the `<html>` element, and add a meta description.
